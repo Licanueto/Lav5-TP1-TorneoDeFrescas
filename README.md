@@ -1,24 +1,24 @@
 <H2> TorneoDeFrescas: Primer Trabajo Práctico de Laboratorio 5 de TSSI</H2>
 
 
-<H3>Maven</H3>
+<br><H3>Maven</H3>
 <H5>Maven es una herramienta de automatización de compilación de software utilizada principalmente en Java pero también disponible para C#, Scala y Ruby entre otros.
 Maven nos permite descargar librerías (por ej. MySQL Connector/J) y plugins de repositorios de forma dinámica. A estos y a sus dependencias las describe mediante un archivo XML.</H5>
 
-<H3>POM</H3>
+<br><H3>POM</H3>
 <H5>POM significa Project Object Model y es un archivo en formato XML que nos sirve para comunicarnos con Maven.
 Nos provee la configuración para un determinado proyecto incluyendo su nombre, dueño y dependencias de otros proyectos.
 Mediante el POM también pueden ser configurados los plugins y cómo el proyecto reacciona a estos.
 Los proyectos grandes suelen ser subdivididos y en este caso cada sub-proyecto tendrá su POM.</H5>
 
-<H3>Archetype && ArtifactId</H3>
+<br><H3>Archetype && ArtifactId</H3>
 <H5>Archetype es una herramienta que nos permite generar plantillas de proyectos Maven.
 Un Archetype adecuado permite al programador ahorrarse el tiempo de armar el proyecto y setear las cosas básicas pudiendo así enfocarse en lo que le compete.
 También haciendo que distintas personas/proyectos partan del mismo Archetype se puede lograr una estandarización del formato de los proyectos en una organización.
 ArtifactId poco tiene que ver con Archetype. Este es simplemente el nombre del archivo jar sin versión.
 Este comienza con letras minúsculas.
 
-<H3>Goals? de Maven</H3>
+<br><H3>Goals? de Maven</H3>
 <H4>clean 
 <H5>No es un Goal sino que es uno de los tres Lifecycles (ciclos de vida) de Maven junto con "default" y "site".
         Este consiste en limpiar el proyecto y remover los archivos generados por el build anterior. 
@@ -29,7 +29,7 @@ Este comienza con letras minúsculas.
 <H4>compile
 <H5>Es una fase del Lifecycle default que simplemente consiste en la compilación del código fuente del proyecto.</H5>
 
-<H3>Scopes de Maven</H3>
+<br><H3>Scopes de Maven</H3>
 <H4>Compile
  <H5>Las dependencias con este scope son transitivas y están disponibles en la ruta del proyecto.
         Estas son automáticamente propagadas a los otros proyectos que dependan de este.
